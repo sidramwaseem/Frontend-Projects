@@ -41,20 +41,24 @@
   text-decoration: none;
   color: #fff;
 }
-.request-btn {
-  background-color: #191a1b;
-  padding: 6px 22px;
-  border: 1px solid #fff;
+
+.buttons button {
   color: #fff;
   border-radius: 12px;
-  font-weight: 700;
+  font-weight: 500;
+  padding: 6px 22px;
+  font-size:24px;
+}
+
+.request-btn {
+  background-color: #191a1b;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-right: 10px;
 }
 
 .sign-btn {
   padding: 6px 22px;
   background-color: #4c5fd5;
   border: none;
-  color: #fff;
-  border-radius: 12px;
-  font-weight: 700;
 }
