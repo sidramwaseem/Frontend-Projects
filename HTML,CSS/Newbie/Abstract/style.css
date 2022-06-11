@@ -41,5 +41,13 @@
   text-decoration: none;
   color: #fff;
 }
-.request-btn{}
+.request-btn{
+  background-color: #191a1b;
+  padding: 6px 22px;
+  border:1px solid #fff;
+  color: #fff;
+  border-radius:12px;
+  font-weight: 700;
+}
+
 .sign-btn{}
