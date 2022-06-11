@@ -42,6 +42,10 @@
   color: #fff;
 }
 
+.buttons{
+  margin-right: 40px;
+}
+
 .buttons button {
   color: #fff;
   border-radius: 12px;
