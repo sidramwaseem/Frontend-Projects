@@ -90,3 +90,52 @@
     margin: 7px auto;
   }
 }
+
+
+/* Subscription Section */
+#subscription{
+  text-align: center;
+  padding: 60px 0px;
+  background-color: #dadbf1;
+}
+
+.subscription-container{
+  max-width: 60%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#subscription h1{
+  font-family: "Roboto", sans-serif;
+  font-size:80px;
+  font-weight:400;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+#subscription form input{
+  width:100%;
+  padding: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  border: 1px solid #000;
+}
+
+#subscription form input:hover,#subscription form input:active {
+  border:1px solid #4C5FD5;
+}
+
+.subscription-form{
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.arrow-icon{
+  position:absolute;
+  top: 15px;
+  right: 20px;
+}
+.arrow-icon:hover{
+  cursor: pointer;
+  color: #4C5FD5;
+}
