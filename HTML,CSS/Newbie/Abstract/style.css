@@ -23,7 +23,6 @@
   align-items: center;
   align-content: center;
   padding: 10px;
-  border: 2px solid green;
 }
 
 .header-logo-img {
@@ -143,17 +142,12 @@
 
 /*Services Section*/
 
-#services{
-  border: 1px solid red;
-}
-
 .services-img{
   max-height:120px;
   max-width: 100%;
 }
 
 .services-container{
-  border: 2px solid purple;
   max-width: 85%;
   width: 100%;
   margin: 90px auto;
@@ -164,11 +158,10 @@
   margin-top: 50px;
   display: flex;
   flex-direction: row;
-  border: 2px solid orange;
 }
 
 .box-text{
-  border: 2px solid blue;
+  color: #000;
   margin-left: 20px;
 }
 
