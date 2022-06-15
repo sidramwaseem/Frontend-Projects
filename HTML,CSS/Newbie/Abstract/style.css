@@ -139,3 +139,23 @@
   cursor: pointer;
   color: #4C5FD5;
 }
+
+
+/*Services Section*/
+
+#services{
+  border: 1px solid red;
+}
+
+.services-img{
+  max-height:120px;
+  max-width: 100%;
+}
+
+.services-container{
+  border: 2px solid purple;
+}
+
+.box{
+  margin-top: 70px;
+}
