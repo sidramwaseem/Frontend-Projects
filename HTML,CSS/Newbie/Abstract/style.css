@@ -154,8 +154,41 @@
 
 .services-container{
   border: 2px solid purple;
+  max-width: 85%;
+  width: 100%;
+  margin: 90px auto;
 }
 
 .box{
-  margin-top: 70px;
+  margin: 20px auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid orange;
+}
+
+.box-text{
+  border: 2px solid blue;
+  margin-left: 20px;
+}
+
+.box-text h3{
+  font-size:24px;
+  font-weight:700;
+}
+
+.box-text p{
+  font-size:24px;
+  line-height:32px;
+}
+
+.box-text a{
+  font-size:20px;
+  line-height:28px;
+  color: #4C5FD5;
+}
+
+.box-text a:hover{
+  color: #4c5fd5;
+  text-decoration: underline;
 }
