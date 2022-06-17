@@ -185,3 +185,32 @@
   color: #4c5fd5;
   text-decoration: underline;
 }
+
+/* Footer */
+
+footer{
+  background-color: #000;
+  color: #fff;
+  padding: 60px 10px;
+}
+
+.footer-row{
+  display: flex;
+  flex-direction: row;
+}
+
+footer ul{
+  list-style: none;
+  margin: 10px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-row-credits{
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-end;
+}
