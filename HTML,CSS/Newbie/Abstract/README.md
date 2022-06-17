@@ -8,11 +8,11 @@
       Demo
     </a>
     <span> | </span>
-    <a href="#">
+    <a href="https://github.com/sidramwaseem/Frontend-Projects/edit/main/HTML,CSS/Newbie/Abstract">
       Solution
     </a>
     <span> | </span>
-    <a href="#">
+    <a href="https://www.frontendpractice.com/projects/abstract">
       Challenge
     </a>
   </h3>
