@@ -4,33 +4,34 @@ html {
 }
 
 *,
-*::before,
-*::after {
-  box-sizing: border-box;
+*::after,
+*::before {
+  box-sizing: inherit;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(220deg, 15%, 55%);
-  color: #fff;
   font-family: "Outfit", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-weight: 700;
   line-height: 1.1;
-  margin-top: 0;
 }
 
 p {
   margin-top: 0;
 }
 
-a,
-a:visited,
-a:active {
+a, a:visited, a:active {
   text-decoration: none;
+}
+
+:root {
+  --background-color:#d6e2f0;
+  --text-color:#7b879d;
+  --heading-color:rgb(31, 50, 81);
 }/*# sourceMappingURL=style.css.map */
