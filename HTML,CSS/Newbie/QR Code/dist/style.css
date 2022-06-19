@@ -1,1 +1,36 @@
-/*# sourceMappingURL=style.css.map */
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(220deg, 15%, 55%);
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
