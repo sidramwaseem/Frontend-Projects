@@ -1,4 +1,18 @@
 html {
   box-sizing: border-box;
-  font-size:100%;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  color: #fff;
+  font-family:;
 }
