@@ -57,9 +57,7 @@ Tools and resources used in this projects are:
 - [FontAwesome](https://fontawesome.com/search?s=solid%2Cbrands)
 - [Google Fonts](https://fonts.google.com/)
 ### Preview
-<h2>Desktop Version</h2>
 ![screenshot](https://github.com/sidramwaseem/Frontend-Projects/blob/main/HTML,CSS/Newbie/QR%20Code/assets/preview/desktop.png?raw=true)
-<h2>Mobile Version</h2>
 ![screenshot](https://github.com/sidramwaseem/Frontend-Projects/blob/main/HTML,CSS/Newbie/QR%20Code/assets/preview/mobile.png?raw=true)
 
 
