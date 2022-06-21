@@ -34,4 +34,28 @@ a, a:visited, a:active {
   --background-color:#d6e2f0;
   --text-color:#7b879d;
   --heading-color:rgb(31, 50, 81);
+}
+
+.container {
+  max-width: 290px;
+  margin: auto;
+  text-align: center;
+  border-radius: 16px;
+  background-color: #fff;
+  margin-top: 8%;
+}
+.container__img {
+  max-width: 250px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 16px;
+}
+.container__text h2 {
+  color: #1f3251;
+  font-weight: 700;
+}
+.container__text p {
+  font-weight: 400;
+  padding-bottom: 40px;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
