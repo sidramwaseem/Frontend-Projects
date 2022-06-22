@@ -68,6 +68,8 @@ Tools and resources used in this projects are:
 The aspects of features reagrding design covered:
 - Image and container widths
 - Responsiveness
+- Scss partials
+- Targeting classes with scss
 
 ### Project
 
