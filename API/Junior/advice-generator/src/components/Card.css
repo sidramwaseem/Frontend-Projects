@@ -10,7 +10,7 @@ body{
   border-radius: 12px;
   padding:20px 10px;
   margin: 13rem auto;
-  height: 15rem;
+  height: 17rem;
   text-align: center;
 }
 
@@ -34,8 +34,8 @@ line-height:2rem;
 .divider{
   max-width: 100%;
   width: 100%;
-  margin-bottom: 40px;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 12px;
 }
 
 .dice-container{
