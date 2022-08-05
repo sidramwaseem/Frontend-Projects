@@ -4,15 +4,13 @@ import "./App.css";
 
 function App() {
   const [advice, setAdvice] = React.useState({
-    id:0,
-    advice:"",
+    id: 0,
+    advice: "",
   });
 
   React.useEffect(() => {
     async function getAdvice() {
-      const res = await fetch(
-        "https://api.adviceslip.com/advice"
-      );
+      const res = await fetch("https://api.adviceslip.com/advice");
       const data = await res.json();
       setAdvice(() => {
         return {
@@ -35,11 +33,9 @@ function App() {
     });
   }
 
-  console.log(advice.advice);
-
   return (
     <div>
-      <Card id={advice.id} advice={advice.advice} toggleChange={toggleChange}/>
+      <Card id={advice.id} advice={advice.advice} toggleChange={toggleChange} />
     </div>
   );
 }
