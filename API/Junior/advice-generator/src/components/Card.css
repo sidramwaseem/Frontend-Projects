@@ -1,55 +1,61 @@
-body{
-  background-color: #1f2632;;
+body {
+  background-color: #1f2632;
 }
-.container{
-  position:relative;
+.container {
+  position: relative;
   background-color: hsl(216, 19%, 24%);
   color: rgb(201, 200, 200);
   max-width: 30rem;
   width: 100%;
   border-radius: 12px;
-  padding:20px 10px;
+  padding: 20px 10px;
   margin: 13rem auto;
   height: 17rem;
   text-align: center;
 }
 
-.container--card-h1{
-  font-size:11px;
+.container--card-h1 {
+  font-size: 11px;
   text-transform: uppercase;
   color: #52ffa8;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 300;
   letter-spacing: 0.3em;
 }
 
-.container--card-p{
-font-size: 28px;
-font-family: 'Manrope', sans-serif;
-font-weight: 800;
-margin-top: 20px;
-margin-bottom:20px;
-line-height:2rem;
+.container--card-p {
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 2rem;
 }
-.divider{
+.divider {
   max-width: 100%;
   width: 100%;
   margin-bottom: 20px;
   margin-top: 12px;
 }
 
-.dice-container{
+.dice-container {
   position: absolute;
-  bottom:-20px;
+  bottom: -20px;
   right: 45%;
   border-radius: 50%;
-  padding:10px;
-  background-color:#52ffa8;
+  padding: 10px;
+  background-color: #52ffa8;
   cursor: pointer;
 }
 
-.dice{
+.dice-container:hover{
+  box-shadow:
+  0 0 20px 10px #52ffa8,
+  0 0 50px 30px #8ceebd
+}
+
+.dice {
   max-width: 20px;
   height: 20px;
-  margin:2px auto 0 auto;
+  margin: 2px auto 0 auto;
 }
