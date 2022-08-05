@@ -11,7 +11,7 @@ function Card(props) {
         <p className="container--card-p">"{props.advice}"</p>
       </div>
       <img src={divider} alt="divider" className="divider" />
-      <div class="dice-container">
+      <div class="dice-container" onClick={props.toggleChange}>
       <img src={dice} alt="dice button" className="dice" />
       </div>
     </div>
