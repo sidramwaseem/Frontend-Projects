@@ -24,11 +24,22 @@ function App() {
     getAdvice();
   }, []);
 
+  async function toggleChange() {
+    const res = await fetch("https://api.adviceslip.com/advice");
+    const data = await res.json();
+    setAdvice(() => {
+      return {
+        id: data.slip.id,
+        advice: data.slip.advice,
+      };
+    });
+  }
+
   console.log(advice.advice);
 
   return (
     <div>
-      <Card id={advice.id} advice={advice.advice} />
+      <Card id={advice.id} advice={advice.advice} toggleChange={toggleChange}/>
     </div>
   );
 }
