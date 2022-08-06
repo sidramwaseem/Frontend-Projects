@@ -50,38 +50,28 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Development of this project indeed helped me in API fetching. I always struggle with this portion and I beleive this project did improve it.
+
+A new thing that I tried: 
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.dice-container:hover{
+  box-shadow:
+  0 0 20px 10px #52ffa8,
+  0 0 50px 30px #8ceebd
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+If you want more help with box-shadows, I'd recommend checking out [Box-Shadow](https://codersblock.com/blog/creating-glow-effects-with-css/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Box-Shadow Resource](https://codersblock.com/blog/creating-glow-effects-with-css/) - This helped me for Box-Shadow. I really liked this pattern and will use it going forward.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
