@@ -10,7 +10,9 @@ function App() {
 
   React.useEffect(() => {
     async function getAdvice() {
-      const res = await fetch("https://api.adviceslip.com/advice");
+      const res = await fetch("https://api.adviceslip.com/advice", {
+        cache: "no-cache",
+      });
       const data = await res.json();
       setAdvice(() => {
         return {
@@ -23,7 +25,9 @@ function App() {
   }, []);
 
   async function toggleChange() {
-    const res = await fetch("https://api.adviceslip.com/advice");
+    const res = await fetch("https://api.adviceslip.com/advice", {
+      cache: "no-cache",
+    });
     const data = await res.json();
     setAdvice(() => {
       return {
