@@ -2,6 +2,8 @@
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+## Demo
+Demo: https://advicegenerator-react.netlify.app/
 ## Table of contents
 
 - [Overview](#overview)
@@ -28,14 +30,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](https://github.com/sidramwaseem/Advice-Generator/blob/main/preview/ss1.png?raw=true)
+![screenshot](https://github.com/sidramwaseem/Advice-Generator/blob/main/preview/ss2.png?raw=true)
+![screenshot](https://github.com/sidramwaseem/Advice-Generator/blob/main/preview/ss3.png?raw=true)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/sidramwaseem/Advice-Generator)
+- Live Site URL: [Live Site](https://advicegenerator-react.netlify.app/)
 
 ## My process
 
@@ -72,6 +76,6 @@ If you want more help with box-shadows, I'd recommend checking out [Box-Shadow](
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Sidra Waseem](https://sidrawaseem.netlify.app/)
+- Frontend Mentor - [@sidramwaseem](https://www.frontendmentor.io/profile/sidramwaseem)
+- Twitter - [@sidramwaseem](https://www.twitter.com/sidramwaseem)
