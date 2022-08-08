@@ -41,8 +41,55 @@ a:active {
 }
 
 :root {
-  --background-color: #0b2434;
-  --text-color: #4a4e74;
-  --heading-color: #2b283a;
+  --background-image: linear-gradient(#af67e9, #6565e7);
+  --text-color: #787887;
+  --heading-color: rgb(74, 75, 94);
   --number-color: #2b283a;
+}
+
+body {
+  background-image: var(--background-image);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: cover;
+  z-index: -90;
+}
+
+.container {
+  border: 2px solid red;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  border-radius: 16px;
+  max-width: 60em;
+  width: 100%;
+  margin: 120px auto;
+  height: 25em;
+}
+.container__images {
+  border: 2px solid green;
+  width: 250em;
+  position: relative;
+}
+.container__images img {
+  position: absolute;
+}
+.container__images--pattern {
+  width: 35em;
+  top: -130px;
+  left: -220px;
+}
+.container__images--woman {
+  width: 23em;
+  top: 30px;
+  left: -65px;
+}
+.container__images--box {
+  width: 11em;
+  top: 125px;
+  left: -100px;
+  z-index: 22;
+}
+.container__questions {
+  border: 2px solid purple;
 }/*# sourceMappingURL=style.css.map */
