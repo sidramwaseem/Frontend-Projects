@@ -1,0 +1,23 @@
+@use "../util" as util;
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  font:util.$headingfont ;
+  color: var(--heading-color);
+  font-size: 35px;
+}
+
+p {
+  margin-top: 0;
+  font-weight: 400;
+  font:util.$textfont;
+  color: var(--text-color);
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
