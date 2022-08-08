@@ -12,7 +12,7 @@ html {
 body {
   margin: 0;
   padding: 20px;
-  font-family: "Karla", sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
 }
@@ -22,7 +22,7 @@ h2,
 h3 {
   font-weight: 700;
   line-height: 1.1;
-  font: "Karla", sans-serif;
+  font: "Kumbh Sans", sans-serif;
   color: var(--heading-color);
   font-size: 35px;
 }
@@ -30,7 +30,7 @@ h3 {
 p {
   margin-top: 0;
   font-weight: 400;
-  font: "Inter", sans-serif;
+  font: "Kumbh Sans", sans-serif;
   color: var(--text-color);
 }
 
