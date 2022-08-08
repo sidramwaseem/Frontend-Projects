@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Karla", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  font: "Karla", sans-serif;
+  color: var(--heading-color);
+  font-size: 35px;
+}
+
+p {
+  margin-top: 0;
+  font-weight: 400;
+  font: "Inter", sans-serif;
+  color: var(--text-color);
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+:root {
+  --background-color: #0b2434;
+  --text-color: #4a4e74;
+  --heading-color: #2b283a;
+  --number-color: #2b283a;
+}/*# sourceMappingURL=style.css.map */
