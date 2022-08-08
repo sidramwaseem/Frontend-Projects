@@ -1,0 +1,20 @@
+@use "../util" as util;
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: util.$headingfont;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
