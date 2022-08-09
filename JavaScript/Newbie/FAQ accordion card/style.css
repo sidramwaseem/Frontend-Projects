@@ -36,6 +36,7 @@ body {
 .container__images {
   width: 50%;
   position: relative;
+  display:block;
 }
 .container__images img {
   position: absolute;
@@ -105,4 +106,34 @@ body {
   margin: auto;
   transition: max-height 0.2s ease-out;
   color: hsl(240, 6%, 50%);
+}
+
+@media only screen and (max-width: 680px){
+  .container{
+    flex-direction: column;
+    max-width: 25em;
+    width: 100%;
+
+  }
+  .container__images--pattern {
+    width: 20em;
+    top: -220px;
+    left: 0px;
+  }
+  
+  .container__images--woman {
+    width: 20em;
+    top: -190px;
+    left: 6px;
+  }
+  .container__images--box {
+    width: 11em;
+    top: -120px;
+    left: -15px;
+    z-index: 22;
+  }
+  .container__questions {
+    margin-top: 40px;
+    width: 100%;
+  }
 }
