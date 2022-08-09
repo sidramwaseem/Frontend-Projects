@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: linear-gradient(#af67e9, #6565e7);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: cover;
+  z-index: -90;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  border-radius: 16px;
+  max-width: 50em;
+  width: 100%;
+  margin: 120px auto;
+  padding: 1.5em;
+  min-height: 25em;
+  box-shadow: 0px 21px 55px -15px #000;
+}
+.container h1 {
+  font-weight: 700;
+  color: hsl(238, 29%, 16%);
+}
+.container__images {
+  width: 50%;
+  position: relative;
+}
+.container__images img {
+  position: absolute;
+}
+
+.container__images--pattern {
+  width: 35em;
+  top: -130px;
+  left: -220px;
+}
+
+.container__images--woman {
+  width: 23em;
+  top: 30px;
+  left: -65px;
+}
+.container__images--box {
+  width: 11em;
+  top: 125px;
+  left: -100px;
+  z-index: 22;
+}
+
+.container__questions {
+  width: 50%;
+  font-size: 12px;
+}
+.accordion {
+  background-color: transparent;
+  color: hsl(237, 12%, 33%);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-weight: 400;
+}
+
+.active {
+  color: hsl(238, 29%, 16%);
+  font-weight: 700;
+}
+.accordion:hover {
+  color: hsl(14, 88%, 65%);
+}
+.accordion:after {
+  content: url("./images/icon-arrow-down.svg");
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  border-bottom: 2px solid hsl(240, 5%, 91%);
+  width:95%;
+  margin: auto;
+  transition: max-height 0.2s ease-out;
+  color: hsl(240, 6%, 50%);
+}
