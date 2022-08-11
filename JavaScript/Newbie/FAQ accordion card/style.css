@@ -83,7 +83,7 @@ body {
   font-weight: 700;
 }
 .accordion:hover {
-  color: hsl(14, 88%, 65%);
+  color: #f47c57;
 }
 .accordion:after {
   content: url("./images/icon-arrow-down.svg");
@@ -136,4 +136,19 @@ body {
     margin-top: 40px;
     width: 100%;
   }
+}
+
+footer{
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+}
+
+footer a{
+  color:#f47c57;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: #ffd8cc;
 }
