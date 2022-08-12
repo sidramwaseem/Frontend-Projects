@@ -1,4 +1,4 @@
-<h1 align="center">QR Code</h1>
+<h1 align="center">FAQ Accordion</h1>
 
 <div align="center">
   <h3>
