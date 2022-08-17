@@ -1,3 +1,15 @@
 *{
     font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #cfcfcf;
+}
+
+
+#grid-container{
+    border: 2px solid red;
+    display: inline-grid;
+    grid-template-columns:repeat(3,1fr);
+}
+
+.grid{
+    border:2px solid green;
 }
