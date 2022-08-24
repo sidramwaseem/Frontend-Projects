@@ -1,13 +1,33 @@
 *{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: #cfcfcf;
 }
 
-
+body{
+    width: 100%;
+}
 #grid-container{
     border: 2px solid red;
     display: inline-grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(4,1fr);
+    /* grid-template-rows:repeat(2,1fr) */
+}
+
+#grid1{
+    grid-column: 1 / span 2;
+}
+
+#grid5{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row: 1 / span 2;
+}
+
+#grid4{
+    grid-column: 2 / span 2;
 }
 
 .grid{
