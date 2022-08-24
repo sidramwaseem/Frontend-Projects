@@ -19,6 +19,11 @@ body {
   gap: 1.2em;
 }
 
+.grid{
+    padding: 1.2em;
+    border-radius: 12px;
+}
+
 #grid1 {
   grid-column: 1 / span 2;
 }
