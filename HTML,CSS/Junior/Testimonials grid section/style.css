@@ -26,16 +26,24 @@ body {
 
 #grid1 {
   grid-column: 1 / span 2;
+  background-color: #7541c8;
 }
-
+#grid2{
+  background-color: hsl(217, 19%, 35%);
+}
+#grid3{
+  background-color: #fff;
+}
 #grid5 {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row: 1 / span 2;
+  background-color: hsl(0, 0%, 100%);
 }
 
 #grid4 {
   grid-column: 2 / span 2;
+  background-color: hsl(219, 29%, 14%);
 }
 
 .grid {
