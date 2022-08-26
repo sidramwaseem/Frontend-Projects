@@ -3,19 +3,18 @@
   padding: 0;
   margin: 0;
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: #cfcfcf;
 }
 
 body {
   width: 100%;
+  background-color: #eee;
 }
 #grid-container {
-  border: 2px solid red;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   max-width: 80%;
   width: 100%;
-  margin: 0 auto;
+  margin: 5% auto;
   gap: 1.2em;
 }
 
@@ -51,10 +50,6 @@ body {
   color: #cfcfcf;
 }
 
-.grid {
-  border: 2px solid green;
-}
-
 .profile, .block, .profile p{
   background-color: transparent;
 }
@@ -73,4 +68,31 @@ body {
 
 .block{
   display:block;
+  opacity: 50%;
+}
+
+.review{
+  font-weight: 600;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 0 20px 0;
+}
+
+.quote{
+  opacity: 70%;
+}
+
+.footer{
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer a{
+  text-decoration: none;
+  color:#7541c8;
+}
+
+.footer a:hover{
+  color: #4b1d96;
 }
