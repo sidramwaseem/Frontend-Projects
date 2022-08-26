@@ -27,23 +27,28 @@ body {
 #grid1 {
   grid-column: 1 / span 2;
   background-color: #7541c8;
+  color: #cfcfcf;
 }
 #grid2{
   background-color: hsl(217, 19%, 35%);
+  color: #cfcfcf;
 }
 #grid3{
   background-color: #fff;
+  color:hsl(217, 19%, 35%);
 }
 #grid5 {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row: 1 / span 2;
   background-color: hsl(0, 0%, 100%);
+  color:hsl(217, 19%, 35%);
 }
 
 #grid4 {
   grid-column: 2 / span 2;
   background-color: hsl(219, 29%, 14%);
+  color: #cfcfcf;
 }
 
 .grid {
