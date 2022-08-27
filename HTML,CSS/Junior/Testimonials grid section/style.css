@@ -96,3 +96,11 @@ body {
 .footer a:hover{
   color: #4b1d96;
 }
+
+
+@media only screen and (max-width: 680px){
+  #grid-container {
+    display:flex;
+    flex-direction: column;
+  }
+}
