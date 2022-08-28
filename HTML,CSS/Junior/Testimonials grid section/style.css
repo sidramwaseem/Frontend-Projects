@@ -27,6 +27,8 @@ body {
   grid-column: 1 / span 2;
   background-color: #7541c8;
   color: #cfcfcf;
+  position: relative;
+  z-index: -11;
 }
 #grid2 {
   background-color: hsl(217, 19%, 35%);
@@ -54,6 +56,7 @@ body {
 .block,
 .profile p {
   background-color: transparent;
+  z-index: 10;
 }
 
 .profile {
@@ -78,6 +81,7 @@ body {
   font-weight: bold;
   font-size: 20px;
   margin: 20px 0 20px 0;
+  z-index: 10;
 }
 
 .quote {
@@ -104,4 +108,11 @@ body {
     display: flex;
     flex-direction: column;
   }
+}
+
+.quotation{
+  position: absolute;
+  top: 0rem;
+  right: 7rem;
+  z-index: -1;
 }
